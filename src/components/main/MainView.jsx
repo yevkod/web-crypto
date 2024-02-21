@@ -1,5 +1,4 @@
 import React from 'react';
-import { mainArray } from './MainArray';
 import main_img from '../../assets/img/bg-img-main.png';
 import img_right from '../../assets/img/main-right-all.png';
 import { RequestButton } from '../buttons/RequestButton';
@@ -12,16 +11,7 @@ export const MainView = () => {
                 <img src={main_img} alt='main_img' />
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto p-5 gap-16'>
-                <div className='flex relative flex-col items-center lg:items-start'>
-                    {/* <div className='flex flex-col h-4 gap-5'>
-                        {mainArray.map((item) => (
-                            <>
-                                <div className='flex flex-col'>
-                                    <img className='h-3 w-3 cursor-pointer' src={item.icon} alt='images' />
-                                </div>
-                            </>
-                        ))}
-                    </div> */}
+                <div className='flex relative justify-center flex-col items-center lg:items-start'>
                     <div className='text-[12px] uppercase pl-4 pt-5 lg:pt-0'>
                         <span>The most private, non-custodial Ethereum wallet</span>
                     </div>

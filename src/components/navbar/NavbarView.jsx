@@ -13,7 +13,9 @@ export const NavbarView = ({ menu, setMenu }) => {
         <div className='flex bg-[#E7F1FB] fixed z-[10000] h-[78px] items-center justify-center'>
             <div className='flex justify-between px-5 w-[100vw]'>
                 <div className='flex cursor-pointer items-center hover:scale-105 transition-all'>
-                    <img src={img_navbar} alt='img_navbar' />
+                    <Link to="mainView" smooth={true} duration={500}>
+                        <img src={img_navbar} alt='img_navbar' />
+                    </Link>
                 </div>
                 <div className='flex gap-8 px-5'>
                     <ul className='hidden lg:flex gap-5 text-[#455A74] py-3'>

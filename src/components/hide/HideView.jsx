@@ -5,12 +5,15 @@ import { hideArray } from './HideArray';
 export const HideView = () => {
     return (
         <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
-            <div>
+            <div className='relative max-w-[90rem] mx-auto'>
                 <div>
                     <span className='uppercase text-[12px]'>What blank does</span>
                 </div>
                 <div>
                     <span className='[font-size:_clamp(2em,4vw,58px)]'>Hide it all. Go Blank.</span>
+                </div>
+                <div className='hidden lg:flex relative h-8 px-5'>
+                    <img className='absolute -top-44' src={hide_img} alt='hide_img' />
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 pt-8 lg:grid-cols-3 gap-12 lg:gap-5 max-w-[90rem] mx-auto px-5'>
