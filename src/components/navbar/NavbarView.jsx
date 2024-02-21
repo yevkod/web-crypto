@@ -16,10 +16,18 @@ export const NavbarView = ({ menu, setMenu }) => {
                 </div>
                 <div className='flex gap-8 px-5'>
                     <ul className='hidden lg:flex gap-5 text-[#455A74] py-3'>
-                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>Why Blank</li>
-                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>What blank offers</li>
-                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>How it works</li>
-                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>Blank token</li>
+                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                            <a href="#anonymousView">Why Blank</a>
+                        </li>
+                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                            <a href="#howItWorkView">How it Works</a>
+                        </li>
+                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                            <a href="#utilityView">Blank Token</a>
+                        </li>
+                        <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                            <a href="#comparisonView">What Blank Offers</a>
+                        </li>
                     </ul>
                     <div className='flex lg:hidden justify-end w-10 cursor-pointer' onClick={handleMenu}>
                         <img src={burger} alt='burger' />

@@ -4,10 +4,18 @@ export const BurgerMenuView = () => {
     return (
         <div className='flex z-50 flex-col py-10 px-10 shadow-md rounded-lg'>
             <ul className='flex flex-col gap-5'>
-                <li className='underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Why Blank</li>
-                <li className='underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>What blank offers</li>
-                <li className='underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>How it works</li>
-                <li className='underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Blank token</li>
+                <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                    <a href="#anonymousView">Why Blank</a>
+                </li>
+                <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                    <a href="#howItWorkView">How it Works</a>
+                </li>
+                <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                    <a href="#utilityView">Blank Token</a>
+                </li>
+                <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
+                    <a href="#comparisonView">What Blank Offers</a>
+                </li>
             </ul>
             <div className='flex flex-col pt-8 gap-5'>
                 <div>

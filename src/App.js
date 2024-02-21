@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { NavbarView } from './components/navbar/NavbarView';
 import { MainView } from './components/main/MainView';
 import { AnonymousView } from './components/anonymous/AnonymousView';
@@ -21,29 +20,27 @@ function App() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <Router>
-      <div className="App">
-        {menu && (
-          <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
-            <BurgerMenuView />
-          </div>
-        )}
-        <NavbarView menu={menu} setMenu={setMenu} />
-        <MainView />
-        <AnonymousView />
-        <HideView />
-        <HowItWorkView />
-        <OptionView />
-        <UtilityView />
-        <ComparisonView />
-        <MarketView />
-        <RoadMapView />
-        <TeamView />
-        <PartnersView />
-        <BreakView />
-        <FooterView />
-      </div>
-    </Router>
+    <div className="App">
+      {menu && (
+        <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
+          <BurgerMenuView />
+        </div>
+      )}
+      <NavbarView menu={menu} setMenu={setMenu} />
+      <div id="mainView"><MainView /></div>
+      <div id="anonymousView"><AnonymousView /></div>
+      <div id="hideView"><HideView /></div>
+      <div id="howItWorkView"><HowItWorkView /></div>
+      <div id="optionView"><OptionView /></div>
+      <div id="utilityView"><UtilityView /></div>
+      <div id="comparisonView"><ComparisonView /></div>
+      <div id="marketView"><MarketView /></div>
+      <div id="roadMapView"><RoadMapView /></div>
+      <div id="teamView"><TeamView /></div>
+      <div id="partnersView"><PartnersView /></div>
+      <div id="breakView"><BreakView /></div>
+      <div id="footerView"><FooterView /></div>
+    </div>
   );
 }
 
