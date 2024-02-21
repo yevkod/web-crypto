@@ -1,4 +1,5 @@
-![image](https://github.com/yevkod/web-crypto/assets/94803570/cdbda538-8bf7-4881-b77d-682601eecd42)
+![Frame](https://github.com/yevkod/web-crypto/assets/94803570/9015b3b8-d7cd-4727-9713-efa63aa0b023)
+
 
 
 # Getting Started with Create React App
