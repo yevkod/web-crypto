@@ -1,3 +1,7 @@
+![Frame](https://github.com/yevkod/web-crypto/assets/94803570/9015b3b8-d7cd-4727-9713-efa63aa0b023)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
