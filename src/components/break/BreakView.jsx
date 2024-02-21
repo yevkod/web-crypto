@@ -11,7 +11,7 @@ export const BreakView = () => {
                 </div>
                 <div className='flex flex-col lg:flex-row gap-5 mx-auto pt-12'>
                     <div>
-                        <RequestButton text='Request Early Access' className='hover:scale-105 bg-[#0E2F62] hover:bg-[#262064] cursor-pointer transition-all' />
+                        <RequestButton text='Request Early Access' className='hover:scale-105 bg-[#0d1c32] hover:bg-[#262064] cursor-pointer transition-all' />
                     </div>
                     <div className='mx-auto lg:mx-0'>
                         <WhitePaperButton text='Whitepaper' fill='white' className='text-white border-[#458FFF] hover:bg-[#404fad] active:bg-[#170d26] hover:scale-105 cursor-pointer transition-all' />
