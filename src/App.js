@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { NavbarView } from './components/navbar/NavbarView';
 import { MainView } from './components/main/MainView';
@@ -10,11 +10,23 @@ import { ComparisonView } from './components/comparison/ComparisonView';
 import { OptionView } from './components/option/OptionView';
 import { MarketView } from './components/market/MarketView';
 import { RoadMapView } from './components/roadmap/RoadMapView';
+import { TeamView } from './components/team/TeamView';
+import { PartnersView } from './components/partners/PartnersView';
+import { BreakView } from './components/break/BreakView';
+import { FooterView } from './components/footer/FooterView';
+import { BurgerMenuView } from './components/burgerMenu/BurgerMenuView';
 
 function App() {
+  const [menu, setMenu] = useState(false);
+
   return (
     <div className="App">
-      <NavbarView />
+      {menu && (
+        <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
+          <BurgerMenuView />
+        </div>
+      )}
+      <NavbarView menu={menu} setMenu={setMenu} />
       <MainView />
       <AnonymousView />
       <HideView />
@@ -24,6 +36,10 @@ function App() {
       <ComparisonView />
       <MarketView />
       <RoadMapView />
+      <TeamView />
+      <PartnersView />
+      <BreakView />
+      <FooterView />
     </div>
   );
 }
