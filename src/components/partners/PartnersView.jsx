@@ -3,7 +3,7 @@ import { partnersArray } from './PartnersArray'
 
 export const PartnersView = () => {
     return (
-        <div className='pt-[90px] pb-[90px]'>
+        <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
             <div className='uppercase text-[12px] text-center text-gray-500'>
                 <span>Meet our Partners</span>
             </div>

@@ -3,7 +3,7 @@ import { marketArray } from './UtilityArray'
 
 export const MarketView = () => {
     return (
-        <div className='pt-[90px] pb-[90px]'>
+        <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2 px-5 mx-auto max-w-[90rem] gap-16'>
                 <div className='flex flex-col mx-auto lg:mx-0'>
                     <div className='text-[12px] text-left pl-5 uppercase'>

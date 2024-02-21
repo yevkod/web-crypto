@@ -21,7 +21,7 @@ export const NavbarView = ({ menu, setMenu }) => {
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>How it works</li>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>Blank token</li>
                     </ul>
-                    <div className='flex lg:hidden mr-5 justify-end w-10 cursor-pointer' onClick={handleMenu}>
+                    <div className='flex lg:hidden justify-end w-10 cursor-pointer' onClick={handleMenu}>
                         <img src={burger} alt='burger' />
                     </div>
                     <div className='hidden lg:flex'>

@@ -4,7 +4,7 @@ import comparison from '../../assets/img/decentralized.png';
 export const ComparisonView = () => {
   return (
     <div>
-      <div className='max-w-[90rem] mx-auto pt-[40px] pb-[90px] px-5'>
+      <div className='max-w-[90rem] mx-auto pt-[40px] pb-[50px] lg:pb-[90px] px-5'>
         <div className='uppercase text-[12px]'>
           <span>Innovating decentralized finance</span>
         </div>

@@ -4,7 +4,7 @@ import { hideArray } from './HideArray';
 
 export const HideView = () => {
     return (
-        <div className='pt-[90px] pb-[90px]'>
+        <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
             <div>
                 <div>
                     <span className='uppercase text-[12px]'>What blank does</span>

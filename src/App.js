@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { NavbarView } from './components/navbar/NavbarView';
 import { MainView } from './components/main/MainView';
 import { AnonymousView } from './components/anonymous/AnonymousView';
@@ -20,27 +21,29 @@ function App() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="App">
-      {menu && (
-        <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
-          <BurgerMenuView />
-        </div>
-      )}
-      <NavbarView menu={menu} setMenu={setMenu} />
-      <MainView />
-      <AnonymousView />
-      <HideView />
-      <HowItWorkView />
-      <OptionView />
-      <UtilityView />
-      <ComparisonView />
-      <MarketView />
-      <RoadMapView />
-      <TeamView />
-      <PartnersView />
-      <BreakView />
-      <FooterView />
-    </div>
+    <Router>
+      <div className="App">
+        {menu && (
+          <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
+            <BurgerMenuView />
+          </div>
+        )}
+        <NavbarView menu={menu} setMenu={setMenu} />
+        <MainView />
+        <AnonymousView />
+        <HideView />
+        <HowItWorkView />
+        <OptionView />
+        <UtilityView />
+        <ComparisonView />
+        <MarketView />
+        <RoadMapView />
+        <TeamView />
+        <PartnersView />
+        <BreakView />
+        <FooterView />
+      </div>
+    </Router>
   );
 }
 

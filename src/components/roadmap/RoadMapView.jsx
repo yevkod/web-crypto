@@ -2,7 +2,7 @@ import React from 'react'
 
 export const RoadMapView = () => {
     return (
-        <div className='pt-[90px] pb-[90px] px-5'>
+        <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px] px-5'>
             <div className='max-w-[90rem] mx-auto'>
                 <div className='flex flex-col items-center lg:items-start'>
                     <div className='text-[12px] uppercase text-left pl-5'>

@@ -4,7 +4,7 @@ import { WhitePaperButton } from '../buttons/WhitePaperButton'
 
 export const OptionView = () => {
     return (
-        <div className='bg-[#0A121E] pt-[90px] pb-[90px] px-5'>
+        <div className='bg-[#0A121E] pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px] px-5'>
             <div className='flex flex-col mx-auto max-w-[70rem]'>
                 <div className='text-white text-[12px] uppercase'>
                     <span>Your option to go blank</span>

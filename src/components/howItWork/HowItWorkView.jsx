@@ -4,7 +4,7 @@ import { extensionArray, privacyArray, secureArray } from './HowItWorkArray';
 
 export const HowItWorkView = () => {
   return (
-    <div className='pt-[90px] pb-[90px]'>
+    <div className='pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
       <div className='grid grid-cols-1 lg:grid-cols-2 px-5 gap-16 lg:gap-3 max-w-[90rem] mx-auto'>
         {extensionArray.map((item) => (
           <>

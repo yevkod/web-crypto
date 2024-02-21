@@ -3,7 +3,7 @@ import { teamArray } from './TeamArray'
 
 export const TeamView = () => {
     return (
-        <div className='bg-[#EAEEF2] pt-[90px] pb-[90px]'>
+        <div className='bg-[#EAEEF2] pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px]'>
             <div className='max-w-[757px] mx-auto'>
                 <div className='text-center text-[12px] uppercase'>
                     <span>Team</span>

@@ -7,7 +7,7 @@ import { WhitePaperButton } from '../buttons/WhitePaperButton';
 
 export const MainView = () => {
     return (
-        <div className='relative bg-main bg-cover bg-center h-full w-full pt-[90px] pb-[90px] z-20'>
+        <div className='relative bg-main bg-cover bg-center h-full w-full pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px] z-20'>
             <div className='flex absolute bottom-0 right-0 h-[] -z-10'>
                 <img src={main_img} alt='main_img' />
             </div>
@@ -22,7 +22,7 @@ export const MainView = () => {
                             </>
                         ))}
                     </div> */}
-                    <div className='text-[12px] uppercase pl-4'>
+                    <div className='text-[12px] uppercase pl-4 pt-5 lg:pt-0'>
                         <span>The most private, non-custodial Ethereum wallet</span>
                     </div>
                     <div className='[font-size:_clamp(2em,4vw,58px)] text-left lg:leading-[72px] pt-4 hover:scale-105 cursor-pointer transition-all'>

@@ -4,7 +4,7 @@ import { WhitePaperButton } from '../buttons/WhitePaperButton'
 
 export const BreakView = () => {
     return (
-        <div className='bg-[#1673FF] pt-[90px] pb-[90px] px-5'>
+        <div className='bg-[#1673FF] pt-[50px] pb-[50px]  lg:pt-[90px] lg:pb-[90px] px-5'>
             <div className='flex flex-col justify-center'>
                 <div className='[font-size:_clamp(2em,4vw,58px)]'>
                     <span>Break free from government & <br></br> big tech overwatch. Go Blank.</span>
