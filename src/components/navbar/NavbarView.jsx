@@ -1,6 +1,7 @@
 import React from 'react';
 import img_navbar from '../../assets/img/img-navbar.png';
 import burger from '../../assets/img/burgerIcon.svg';
+import { Link } from 'react-scroll';
 
 export const NavbarView = ({ menu, setMenu }) => {
 
@@ -17,16 +18,16 @@ export const NavbarView = ({ menu, setMenu }) => {
                 <div className='flex gap-8 px-5'>
                     <ul className='hidden lg:flex gap-5 text-[#455A74] py-3'>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                            <a href="#anonymousView">Why Blank</a>
+                            <Link to="anonymousView" smooth={true} duration={500}>Why Blank</Link>
                         </li>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                            <a href="#howItWorkView">How it Works</a>
+                            <Link to="howItWorkView" smooth={true} duration={500}>How it Works</Link>
                         </li>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                            <a href="#utilityView">Blank Token</a>
+                            <Link to="utilityView" smooth={true} duration={500}>Blank Token</Link>
                         </li>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                            <a href="#comparisonView">What Blank Offers</a>
+                            <Link to="comparisonView" smooth={true} duration={500}>What Blank Offers</Link>
                         </li>
                     </ul>
                     <div className='flex lg:hidden justify-end w-10 cursor-pointer' onClick={handleMenu}>

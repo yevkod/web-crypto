@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 export const BurgerMenuView = () => {
     return (
         <div className='flex z-50 flex-col py-10 px-10 shadow-md rounded-lg'>
             <ul className='flex flex-col gap-5'>
                 <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                    <a href="#anonymousView">Why Blank</a>
+                    <Link to="anonymousView" smooth={true} duration={500}>Why Blank</Link>
                 </li>
                 <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                    <a href="#howItWorkView">How it Works</a>
+                    <Link to="howItWorkView" smooth={true} duration={500}>How it Works</Link>
                 </li>
                 <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                    <a href="#utilityView">Blank Token</a>
+                    <Link to="utilityView" smooth={true} duration={500}>Blank Token</Link>
                 </li>
                 <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>
-                    <a href="#comparisonView">What Blank Offers</a>
+                    <Link to="comparisonView" smooth={true} duration={500}>What Blank Offers</Link>
                 </li>
             </ul>
             <div className='flex flex-col pt-8 gap-5'>
