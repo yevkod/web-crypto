@@ -14,7 +14,7 @@ export const NavbarView = ({ menu, setMenu }) => {
                 <div className='flex cursor-pointer items-center hover:scale-105 transition-all'>
                     <img src={img_navbar} alt='img_navbar' />
                 </div>
-                <div className='flex gap-8'>
+                <div className='flex gap-8 px-5'>
                     <ul className='hidden lg:flex gap-5 text-[#455A74] py-3'>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>Why Blank</li>
                         <li className='hover:underline hover:scale-110 cursor-pointer transition-all font-medium uppercase text-[12px]'>What blank offers</li>

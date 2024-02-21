@@ -12,7 +12,7 @@ export const MainView = () => {
                 <img src={main_img} alt='main_img' />
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto p-5 gap-16'>
-                <div className='flex relative flex-col items-start'>
+                <div className='flex relative flex-col items-center lg:items-start'>
                     {/* <div className='flex flex-col h-4 gap-5'>
                         {mainArray.map((item) => (
                             <>
@@ -25,7 +25,7 @@ export const MainView = () => {
                     <div className='text-[12px] uppercase pl-4'>
                         <span>The most private, non-custodial Ethereum wallet</span>
                     </div>
-                    <div className='[font-size:_clamp(2em,4vw,8em)] text-left lg:leading-[72px] pt-4 hover:scale-110 cursor-pointer transition-all'>
+                    <div className='[font-size:_clamp(2em,4vw,58px)] text-left lg:leading-[72px] pt-4 hover:scale-105 cursor-pointer transition-all'>
                         <span>Reclaim privacy <br></br> on your Ethereum transfers</span>
                     </div>
                     <div className='flex flex-col items-start text-[18px] pt-8 text-[#455A74]'>
@@ -41,7 +41,7 @@ export const MainView = () => {
                     </div>
                 </div>
                 <div className='flex relative justify-center'>
-                    <div className='max-w-[100%]'>
+                    <div className='max-w-[100%] hover:scale-105 cursor-pointer transition-all'>
                         <img src={img_right} alt='img_right' />
                     </div>
                 </div>

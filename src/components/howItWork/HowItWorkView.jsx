@@ -9,13 +9,13 @@ export const HowItWorkView = () => {
         {extensionArray.map((item) => (
           <>
             <div className='flex order-2 lg:order-2 justify-center lg:justify-start'>
-              <img className='hover:scale-110 cursor-pointer transition-all' src={item.icon} alt={item.title} />
+              <img className='hover:scale-105 cursor-pointer transition-all' src={item.icon} alt={item.title} />
             </div>
             <div className='text-left max-w-[560px] order-1 lg:order-2 mx-auto lg:mx-0'>
               <div className='text-[12px] uppercase pl-5 pt-3'>
                 <span>{item.title}</span>
               </div>
-              <div className='[font-size:_clamp(2em,4vw,8em)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
+              <div className='[font-size:_clamp(2em,4vw,58px)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
                 <span>{item.content}</span>
               </div>
               <div className='text-[18px] text-[#455A74] pt-8'>
@@ -35,14 +35,14 @@ export const HowItWorkView = () => {
               <div className='text-[12px] uppercase pl-5 pt-3'>
                 <span>{item.title}</span>
               </div>
-              <div className='[font-size:_clamp(2em,4vw,8em)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
+              <div className='[font-size:_clamp(2em,4vw,58px)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
                 <span>{item.content}</span>
               </div>
               <div className='text-[18px] text-[#455A74] pt-8'>
                 <span>{item.description}</span>
                 <div className='flex flex-col pt-5 gap-3'>
                   {item.definitions.map((definition, index) => (
-                    <div className='flex items-center gap-2 hover:scale-110 cursor-pointer transition-all'>
+                    <div className='flex items-center gap-2 hover:scale-105 cursor-pointer transition-all'>
                       <img className='w-4 h-4' src={definition.tick} alt={item.title} />
                       <div className='text-black'>
                         <span>{definition.text}</span>
@@ -53,7 +53,7 @@ export const HowItWorkView = () => {
               </div>
             </div>
             <div className='flex justify-center'>
-              <img className='hover:scale-110 cursor-pointer transition-all' src={item.icon} alt={item.title} />
+              <img className='hover:scale-105 cursor-pointer transition-all' src={item.icon} alt={item.title} />
             </div>
           </>
         ))}
@@ -62,20 +62,20 @@ export const HowItWorkView = () => {
         {secureArray.map((item) => (
           <>
             <div className='flex justify-center order-2 lg:order-1 lg:justify-start'>
-              <img className='hover:scale-110 cursor-pointer transition-all' src={item.icon} alt={item.title} />
+              <img className='hover:scale-105 cursor-pointer transition-all' src={item.icon} alt={item.title} />
             </div>
             <div className='text-left max-w-[560px] order-1 lg:order-2 mx-auto lg:mx-0'>
               <div className='text-[12px] uppercase pl-5 pt-3'>
                 <span>{item.title}</span>
               </div>
-              <div className='[font-size:_clamp(2em,4vw,8em)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
+              <div className='[font-size:_clamp(2em,4vw,58px)] lg:leading-[60px] pt-8 hover:scale-105 cursor-pointer transition-all'>
                 <span>{item.content}</span>
               </div>
               <div className='text-[18px] text-[#455A74] pt-8'>
                 <span>{item.description}</span>
                 <div className='flex flex-col pt-5 gap-3'>
                   {item.definitions.map((definition, index) => (
-                    <div className='flex items-center gap-2 hover:scale-110 cursor-pointer transition-all'>
+                    <div className='flex items-center gap-2 hover:scale-105 cursor-pointer transition-all'>
                       <img className='w-4 h-4' src={definition.tick} alt={item.title} />
                       <div className='text-black'>
                         <span>{definition.text}</span>

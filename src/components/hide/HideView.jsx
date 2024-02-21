@@ -10,7 +10,7 @@ export const HideView = () => {
                     <span className='uppercase text-[12px]'>What blank does</span>
                 </div>
                 <div>
-                    <span className='[font-size:_clamp(2em,4vw,8em)]'>Hide it all. Go Blank.</span>
+                    <span className='[font-size:_clamp(2em,4vw,58px)]'>Hide it all. Go Blank.</span>
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 pt-8 lg:grid-cols-3 gap-12 lg:gap-5 max-w-[90rem] mx-auto px-5'>

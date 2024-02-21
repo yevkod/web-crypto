@@ -8,7 +8,7 @@ export const ComparisonView = () => {
         <div className='uppercase text-[12px]'>
           <span>Innovating decentralized finance</span>
         </div>
-        <div className='uppercase text-center pt-3 lg:leading-[55px] [font-size:_clamp(2em,4vw,8em)] hover:scale-105 cursor-pointer transition-all'>
+        <div className='uppercase text-center pt-3 lg:leading-[55px] [font-size:_clamp(2em,4vw,58px)] hover:scale-105 cursor-pointer transition-all'>
           <span>We’re taking the best that exists, and making it better.</span>
         </div>
         <div className='flex justify-center pt-20 max-w-[100%] mx-auto'>

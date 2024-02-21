@@ -9,7 +9,7 @@ export const OptionView = () => {
                 <div className='text-white text-[12px] uppercase'>
                     <span>Your option to go blank</span>
                 </div>
-                <div className='text-white [font-size:_clamp(2em,4vw,8em)]'>
+                <div className='text-white [font-size:_clamp(2em,4vw,58px)]'>
                     <span>If given a choice: do you reveal your identity or remain anonymous?</span>
                 </div>
                 <div className='text-[12px] text-[#90A3BF] pt-5'>

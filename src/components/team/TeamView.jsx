@@ -8,7 +8,7 @@ export const TeamView = () => {
                 <div className='text-center text-[12px] uppercase'>
                     <span>Team</span>
                 </div>
-                <div className='text-center [font-size:_clamp(2em,4vw,8em)] lg:leading-[65px]'>
+                <div className='text-center [font-size:_clamp(2em,4vw,58px)] lg:leading-[65px]'>
                     <span>We choose to reveal our identities so you can maintain anonymity.</span>
                 </div>
             </div>
