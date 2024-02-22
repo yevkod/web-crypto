@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       {menu && (
         <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
-          <BurgerMenuView />
+          <BurgerMenuView setMenu={setMenu}/>
         </div>
       )}
       <NavbarView menu={menu} setMenu={setMenu} />
