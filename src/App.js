@@ -20,10 +20,10 @@ function App() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       {menu && (
         <div className='flex lg:hidden fixed rounded-lg z-[50] top-[60px] right-0 flex-col shadow-md bg-white'>
-          <BurgerMenuView setMenu={setMenu}/>
+          <BurgerMenuView setMenu={setMenu} />
         </div>
       )}
       <NavbarView menu={menu} setMenu={setMenu} />
